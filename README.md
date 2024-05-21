@@ -8,7 +8,7 @@
 [`RapidFuzz`](https://github.com/rapidfuzz/RapidFuzz)という文字列のマッチングを取るモジュールをベースとして作成された誤り率計算用のモジュールとなっている．  
 筆者は`Hugging Face`の`transformers`モジュールで音声認識モデルの開発を行っているが，  
 モデル学習中のログを取る際にこれが使用されていたので手元で誤り率計算を行う際に用いている．  
-Nvidiaの`NeMo`(https://github.com/NVIDIA/NeMo)でもモデル学習中のロギングやモデル評価時に使用されているみたい．  
+Nvidiaの[`NeMo`](https://github.com/NVIDIA/NeMo)でもモデル学習中のロギングやモデル評価時に使用されているみたい．  
 pythonバージョン`3.8`以上で動作保証．
 
 ### pip
